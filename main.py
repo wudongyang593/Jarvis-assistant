@@ -5,13 +5,8 @@ import sounddevice as sd
 import pvporcupine
 from dotenv import load_dotenv  # 导入库
 from src.core.wakeword_core import WakewordCore
-WAKEWORD = 'jarvis'
-SAMPLE_RATE = 16000             #16k
-# Access_Key = 'xZ3FCBaG7tqxZamqjwR2oVio7gFsZuog4a3t63jNd3bWRZeeYA46Hw=='
 
 load_dotenv()
-
-Access_Key = os.getenv('PVPORCUPINE_ACCESS_KEY')
 
 def main():
     print("可用的音频输入设备：")
