@@ -17,7 +17,7 @@ class WakewordCore:
         print(f'accesskey:{self.Access_Key},Wakeword:{self.WAKEWORD},Sample_rate:{self.SAMPLE_RATE}')
 
     def start(self):
-        print(f'111111accesskey:{self.Access_Key},Wakeword:{self.WAKEWORD},Sample_rate:{self.SAMPLE_RATE}')
+        print(f'start dev')
         pvp = pvporcupine.create(access_key=self.Access_Key, keywords=[self.WAKEWORD])
         frame_length = pvp.frame_length
         print(f"wakeword:{self.WAKEWORD},frame_length:{frame_length}")
