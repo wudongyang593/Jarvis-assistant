@@ -1,4 +1,6 @@
-numpy
-sounddevice
-pvporcupine
-python-dotenv
+numpy==2.4.1
+sounddevice==0.5.3
+pvporcupine==4.0.1
+python-dotenv==1.2.1
+opencv-python==4.13.0.90
+ultralytics==8.4.7
