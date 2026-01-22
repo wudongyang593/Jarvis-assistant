@@ -4,9 +4,7 @@ import numpy as np
 import sounddevice as sd
 import pvporcupine
 from dotenv import load_dotenv  # 导入库
-# WAKEWORD = ''
-# SAMPLE_RATE = 0             #16k
-# Access_Key = ""
+
 class WakewordCore:
     def __init__(self):
         load_dotenv()
