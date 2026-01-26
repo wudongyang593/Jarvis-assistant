@@ -4,3 +4,5 @@ pvporcupine==4.0.1
 python-dotenv==1.2.1
 opencv-python==4.13.0.90
 ultralytics==8.4.7
+soundfile==0.13.1
+webrtcvad== 2.0.10
